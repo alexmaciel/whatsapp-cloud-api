@@ -1,6 +1,20 @@
 {
   "name": "ng-whatsapp-cloud-api",
+  "description": "Opensource Angular wrapper to WhatsApp Cloud API.",
+  "author": "Alex Maciel",  
   "version": "0.0.1",
+  "keywords": [
+    "angular",
+    "whatsapp",
+    "api",
+    "ng-whatsapp-cloud-api"
+  ],  
+  "license": "MIT",
+  "homepage": "https://github.com/alexmaciel/whatsapp-cloud-api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmaciel/whatsapp-cloud-api.git"
+  },  
   "peerDependencies": {
     "@angular/common": "^14.2.0",
     "@angular/core": "^14.2.0"
