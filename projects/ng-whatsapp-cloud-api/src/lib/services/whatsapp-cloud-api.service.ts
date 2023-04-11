@@ -138,38 +138,7 @@ export class NgWhatsappCloudApiService {
       "document": document
     };   
     return this.http.post('/messages', data);
-  }   
-
-  //create button
-
-  /**
-   * @param button
-   * @return array
-   */
-  createButton(button: any) {
-    return {
-      type: "list",
-      header: {type: "text", text: button.get("header")},
-      body: {text: button.get("body")},
-      footer: {text: button.get("footer")},
-      action: button.get("action"),
-    };
-  }  
-
-  /**
-   * @param button
-   * @param recipientId
-   * @return mixed
-   */
-  sendButton(button: any, recipientId: string){
-    const data: any = {
-        messaging_product: "whatsapp",
-        to: recipientId,
-        type: "interactive",
-        interactive: this.createButton(button),
-    };
-    return this.http.post('/messages', data);
-  }  
+  }    
 
   /**
    * @param string $template
