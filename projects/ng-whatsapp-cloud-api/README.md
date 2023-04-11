@@ -1,6 +1,6 @@
 # NgWhatsappCloudApi
 
-Opensource php wrapper to WhatsApp Cloud API.
+Unofficial Angular wrapper for the [WhatsApp Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api)
 
 
 ## Features supported
@@ -61,7 +61,7 @@ import {NgWhatsappCloudApiModule} from 'ng-whatsapp-cloud-api';
         BrowserModule,
         NgWhatsappCloudApiModule.forRoot({
             phoneNumberId: 'YOUR_PHONE_NUMBER_ID',
-            token: 'YOUR_META_WHATSAPP_APP_ACCESS_TOKEN            
+            token: 'YOUR_META_WHATSAPP_APP_ACCESS_TOKEN'          
         })
     ],
     bootstrap: [AppComponent]
